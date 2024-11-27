@@ -70,7 +70,7 @@ Now batch jobs could be used in a myriad of ways when written and customized, bu
 
 Before we create a batch job we need to provision what's called a Configmap. 
 
-A Configmap is essentially a configuration file that can be used by applications/tools across you Kubernetes cluster. Instead of manually defining a specific settings for every single application in your cluster, You can create it once and reference it across multiple applications.
+A Configmap is essentially a configuration file that can be used by applications/tools across you're Kubernetes cluster. Instead of manually defining a specific settings for every single application in your cluster, You can create it once and reference it across multiple applications.
 
 K6 is expects to receive it's java script files through a Configmap.  
 
@@ -87,7 +87,7 @@ export default function () {
 ```
 
 
-We are going to create a configuration file from one of our k6 scripts.
+Now let's create the Configmap from one of our k6 scripts.
 
 Format the below command for your desired outcome:
 ```bash
