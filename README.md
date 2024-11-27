@@ -148,4 +148,4 @@ Now you can design some pretty devious large scale load tests to use on your app
 
 For Kubernetes applications, remember to run the tests from a different namespace than the application you wish to test.
 
-Thank your for reading!
+Thank you for reading!
